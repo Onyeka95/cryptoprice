@@ -1,5 +1,5 @@
-import { fetchCryptoPrices } from "./api.js";
-import { formatPrice } from "./utils.js";
+import { fetchCryptoPrices } from "./api/api.js";
+import { formatPrice } from "./utils/utils.js";
 
 const fetchBtn = document.getElementById('fetchBtn');
 const loadState = document.getElementById('loadState');
